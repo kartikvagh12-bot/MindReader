@@ -146,3 +146,13 @@ if st.button("Analyze"):
     }
 
     save_memory(memory)
+
+st.markdown(
+    """
+    <hr style="margin-top:50px;margin-bottom:10px;">
+    <p style="text-align:center; color:gray; font-size:12px;">
+    created by Kartik Vagh
+    </p>
+    """,
+    unsafe_allow_html=True
+)
